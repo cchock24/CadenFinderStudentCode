@@ -1,9 +1,13 @@
 Name: YOUR NAME HERE
 
-| Date    |  Time  |                                     Update |
-|:--------|:------:|-------------------------------------------:|
-| April 5 | 9-10pm | I tried to write abstract, efficient code. |
-|         |        |                                            |
+| Date    |    Time     |                                                                                                                                                                                                                                                                                                                 Update |
+|:--------|:-----------:|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| April 5 |   9-10pm    |                                                                                                                                                                                                                                                                             I tried to write abstract, efficient code. |
+| Oct 25  | 11:25-11:55 |                                                                                                                                                                                                                                                                                                             THoguht ab |
+| Oct 30  |  9:00-9:30  |                                                                                                                                                                                                      Made a for loop that iterates through the CSV file using the br and makes an arraylist of all the key value pairs |
+| Oct 30  | 9:30-10:05  | I made a binary search tree which works; however, for product it has a really long run time, probably because of the barcodes, so I'm going to try and implement hashing to make the comparisons shorter.                                                                                                            I |
+| Oct 30  | 11:15-11:45 |                                                                                                                                                                                              I tried using hashing, but I realized that won't let me compare greater than less than, so i need to find a new method... |
+| Oct 30  | 11:10:11:30 |                                                                                                                                                                                   I changed it so the binary tree compares hashes not the keys, so now it has a fast enough runtime to finish in just about 2 seconds. |
 
 
 To add a new row to the table, click into a cell and then hit shift-enter.
