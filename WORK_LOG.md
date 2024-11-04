@@ -8,6 +8,7 @@ Name: YOUR NAME HERE
 | Oct 30  | 9:30-10:05  | I made a binary search tree which works; however, for product it has a really long run time, probably because of the barcodes, so I'm going to try and implement hashing to make the comparisons shorter.                                                                                                            I |
 | Oct 30  | 11:15-11:45 |                                                                                                                                                                                              I tried using hashing, but I realized that won't let me compare greater than less than, so i need to find a new method... |
 | Oct 30  | 11:10:11:30 |                                                                                                                                                                                   I changed it so the binary tree compares hashes not the keys, so now it has a fast enough runtime to finish in just about 2 seconds. |
+| Nov 4   | 12:50-1:45  |                                                                                                                                                           I worked on implimenting linear probing. I added Insert, Resize, Query. Currently the code works however its timing out so I need to make it more efficient. |
 
 
 To add a new row to the table, click into a cell and then hit shift-enter.

@@ -2,12 +2,10 @@ public class Pair {
 
     String key;
     String value;
-    long hash;
 
-    public Pair(String k, String v, long l){
+    public Pair(String k, String v){
         key = k;
         value = v;
-        hash = l;
     }
 
     public String getKey() {
@@ -16,9 +14,5 @@ public class Pair {
 
     public String getValue() {
         return value;
-    }
-
-    public long getHash() {
-        return hash;
     }
 }
