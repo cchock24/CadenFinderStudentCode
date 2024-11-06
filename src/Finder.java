@@ -17,7 +17,7 @@ public class Finder {
     int size;
     //Number of Keys entered
     int n = 0;
-    int tableSize = 20;
+    int tableSize = 50000;
     Pair[] pairs;
 
 
@@ -39,6 +39,7 @@ public class Finder {
 
     }
 
+    // Hashing Algorithm
     public int hash(String s){
         int hash = 0;
         for(int i = 0; i < s.length(); i++){
@@ -47,6 +48,7 @@ public class Finder {
         return hash;
     }
 
+    // Insert Value into Array
     public void insert(Pair[] pairs, String key, String value){
         int hash = hash(key);
         while(pairs[hash] != null){
@@ -58,6 +60,7 @@ public class Finder {
         pairs[hash] = new Pair(key, value);
     }
 
+    // Resize Array
     public Pair[] resize(Pair[] pairs){
         tableSize = tableSize*2;
         Pair[] pairNew = new Pair[tableSize];
@@ -69,6 +72,7 @@ public class Finder {
         return pairNew;
     }
 
+    // Get Value From Array
     public String query(String key){
         int hash = hash(key);
         while(pairs[hash] != null){

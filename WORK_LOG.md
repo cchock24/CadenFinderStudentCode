@@ -9,6 +9,7 @@ Name: YOUR NAME HERE
 | Oct 30  | 11:15-11:45 |                                                                                                                                                                                              I tried using hashing, but I realized that won't let me compare greater than less than, so i need to find a new method... |
 | Oct 30  | 11:10:11:30 |                                                                                                                                                                                   I changed it so the binary tree compares hashes not the keys, so now it has a fast enough runtime to finish in just about 2 seconds. |
 | Nov 4   | 12:50-1:45  |                                                                                                                                                           I worked on implimenting linear probing. I added Insert, Resize, Query. Currently the code works however its timing out so I need to make it more efficient. |
+| Nov 5   | 11:30-11:45 |                                                                                                                                                                                                   I got some feedback from beckett who said to increase the original size of my array and that fixed all the problems. |
 
 
 To add a new row to the table, click into a cell and then hit shift-enter.
